@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+}
+html {
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient( rgb(211, 156, 55),rgb(163, 24, 24) ,rgb(177, 63, 63), firebrick);
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#header {
+    
+    display:flex;
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: rgb(221, 28, 28);
+    background:radial-gradient(silver,blue, silver);
+    font-size: 20px;
+    
+    
+}
+h1 {
+    text-shadow:rgb(23, 19, 80) 1px 1px;
+    font-weight: bolder;
+    position:absolute;
+    filter:saturate(10);
+    filter:drop-shadow(5px 5px 3px  silver);
+    z-index: 1;
+    
+    text-align: center;
+    
+
+}
+
+h2 {
+    position:absolute;
+    z-index: 1;
+    color: orange;
+    top: 450px;
+    left: 85%;
+    text-align: cent;
+    
+}
+#header img {
+    width:100%;
+    filter:drop-shadow(8px 8px 10px rgb(41, 38, 37));
+    filter: saturate(1.2);
+    filter:contrast(140%) brightness(120%);
+
+
+}
+
+#navbar {
+    border:1px hidden black;
+    height:90px;
+    width: 100%;
+    background: radial-gradient(yellow, orange, red, firebrick,black);
+    padding: 25px;
+   }
+
+   .drawCSS {
+    color: rgb(14, 35, 221);
+    font-size: 30px;
+}
+
+#flexCon {
+    background: linear-gradient(firebrick,orange, firebrick);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+}
+
+.childP {
+    
+    filter: drop-shadow(3px 3px 2px rgb(21, 62, 196));
+    color: rgb(255, 208, 0);
+    font-size: 20px;
+    max-height: 500px;
+    flex-basis: 50%;
+}
+
+
+

@@ -1,0 +1,29 @@
+#RMHcanvas {
+    border: 2px solid black;
+}
+
+#buttons {
+    position:absolute;
+    
+}
+#eraser img {
+   
+    
+}
+#eraser {
+    margin: 0 10px 10px 0;
+    width: 40px;
+    height: 40px;
+    cursor: none;
+}
+#colorSelect {
+    margin: 0 10px 10px 0;
+    width:40px;
+    height: 40px;
+}
+
+#print {
+    margin:;
+    width: 40px;
+    height: 30px;
+}
